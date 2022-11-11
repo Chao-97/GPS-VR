@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>paintball-ar</title>
+   <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.0/normalize.css">
+    <!-- <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script> -->
+	<!-- <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script> -->
+    <!-- <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"> </script> -->
+	<!-- <script src="https://raw.githack.com/AR-js-org/AR.js/master/three.js/build/ar-threex-location-only.js"> </script> -->
+	
+	<!-- <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.0/normalize.css"> -->
+	<script src="./library/aframe.min.js"></script>
+	<script src="./library/aframe-look-at-component.min.js"> </script>
+	<script src="./library/aframe-ar.js"></script>
+	<script src="./library/ar-threex-location-only.js"> </script>
+	
+    <script type="text/javascript" src="//api.map.baidu.com/api?type=webgl&v=1.0&ak=ik6SMYh6kTLyXz17Hh0zut6goK0BVWK1"></script>
+
+<!-- 	<script type="application/javascript" defer>
+	        var camreass=[];
+	        const _initSourceWebcam = ()=> {
+	        
+	        navigator.mediaDevices.enumerateDevices().then(function (devices) {
+	            console.log(devices);
+	       if(devices){ devices.forEach(function(e){
+	            console.log(e)
+	            if(e.kind=="videoinput")
+	            {
+	                camreass.push(e.deviceId)
+	            }
+	        })}
+	        console.log(camreass)
+	
+	      })
+	      }
+	      _initSourceWebcam();
+	      
+	
+	    </script> -->
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but paintball-ar doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
+
